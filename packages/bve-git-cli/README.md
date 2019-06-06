@@ -5,14 +5,14 @@
 #### 安装
 
 ```
-npm install -g bv-git-cli
+npm install -g @bve/git-cli
 ```
 
 #### 初始化
 生成配置文件
 
 ```
-bv-git init
+bve-git init
 ```
 
 在当前目录生成git.config.js
@@ -43,17 +43,17 @@ module.exports = {
 配置好配置文件后，执行：
 
 ```
-bv-git clone
+bve-git clone
 ```
 
 执行其它配置文件
 
 ```
-bv-git clone ./git.dev.config.js
+bve-git clone ./git.dev.config.js
 ```
 
 #### 其它
 
 ```
-bv-git help
+bve-git help
 ```

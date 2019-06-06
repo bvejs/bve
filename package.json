@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bvjs/bvjs.git"
+    "url": "git+https://github.com/bvejs/bve.git"
   },
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bvjs/bvjs/issues"
+    "url": "https://github.com/bvejs/bve/issues"
   },
-  "homepage": "https://github.com/bvjs/bvjs#readme"
+  "homepage": "https://github.com/bvejs/bve#readme"
 }

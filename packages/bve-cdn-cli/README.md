@@ -5,14 +5,14 @@
 #### 安装
 
 ```
-npm install -g bv-cdn-cli
+npm install -g bve-cdn-cli
 ```
 
 #### 初始化
 生成配置文件
 
 ```
-bv-cdn init
+bve-cdn init
 ```
 
 在当前目录生成cdn.config.js
@@ -44,17 +44,17 @@ module.exports = {
 配置好配置文件后，执行：
 
 ```
-bv-cdn upload
+bve-cdn upload
 ```
 
 执行其它配置文件
 
 ```
-bv-cdn upload ./cdn.dev.config.js
+bve-cdn upload ./cdn.dev.config.js
 ```
 
 #### 其它
 
 ```
-bv-cdn help
+bve-cdn help
 ```

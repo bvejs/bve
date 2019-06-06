@@ -2,13 +2,13 @@
 
 ### 安装
 ```
-npm install --save-dev stylelint-config-bv
+npm install --save-dev bve-stylelint-config
 ```
 
 ### 使用
 .stylelintrc
 ```
 {
-  "extends": "stylelint-config-bv"
+  "extends": "bve-stylelint-config"
 }
 ```

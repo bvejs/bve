@@ -1,25 +1,25 @@
 {
-  "name": "@bvjs/cli",
+  "name": "@bve/cli",
   "version": "1.0.4",
   "description": "模板生成器",
   "main": "index.js",
   "keywords": [
-    "@bvjs/cli",
+    "@bve/cli",
     "react"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "bv": "bin/bv",
-    "bv-init": "bin/bv-init",
-    "bv-list": "bin/bv-list"
+    "bve": "bin/bve",
+    "bve-init": "bin/bve-init",
+    "bve-list": "bin/bve-list"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-cli"
+    "url": "https://github.com/bvejs/bve/tree/master/packages/bve-cli"
   },
-  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-cli#readme",
+  "homepage": "https://github.com/bvejs/bve/tree/master/packages/bve-cli#readme",
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "dependencies": {

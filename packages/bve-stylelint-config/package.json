@@ -1,23 +1,23 @@
 {
-  "name": "@bvjs/stylelint-config",
+  "name": "@bve/stylelint-config",
   "version": "0.0.5",
   "description": "styleLint config",
   "main": "index.js",
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "@bvjs/bv-cil",
-    "@bvjs/bv-eslint-config",
-    "@bvjs/bv-stylelint-config"
+    "@bve/cil",
+    "@bve/eslint-config",
+    "@bve/stylelint-config"
   ],
   "scripts": {
     "lint": "stylelint --fix \"./test/**/*.scss\" --config \"./index.js\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-stylelint-config"
+    "url": "https://github.com/bvejs/bve/tree/master/packages/bve-stylelint-config"
   },
-  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-stylelint-config#readme",
+  "homepage": "https://github.com/bvejs/bve/tree/master/packages/bve-stylelint-config#readme",
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "peerDependencies": {

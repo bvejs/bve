@@ -1,23 +1,23 @@
 {
-  "name": "@bvjs/eslint-config",
+  "name": "@bve/eslint-config",
   "version": "0.0.6",
   "description": "eslint config",
   "main": "index.js",
   "keywords": [
     "eslint",
     "eslint-config",
-    "bv-cil",
-    "@bvjs/bv-eslint-config",
-    "@bvjs/bv-stylelint-config"
+    "@bve/cil",
+    "@bve/eslint-config",
+    "@bve/stylelint-config"
   ],
   "scripts": {
     "lint": "eslint --fix \"./test/**/*.*\" --config \"./index.js\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-eslint-config"
+    "url": "https://github.com/bvejs/bve/tree/master/packages/bve-eslint-config"
   },
-  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-eslint-config#readme",
+  "homepage": "https://github.com/bvejs/bve/tree/master/packages/bve-eslint-config#readme",
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "peerDependencies": {

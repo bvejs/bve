@@ -1,29 +1,29 @@
 {
-  "name": "@bvjs/git-cli",
+  "name": "@bve/git-cli",
   "version": "0.0.8",
   "description": "git dowload",
   "main": "index.js",
   "keywords": [
-    "@bvjs/bv-git-cli",
+    "@bve/git-cli",
     "nodegit",
-    "@bvjs/bv-cil"
+    "@bve/cil"
   ],
   "directories": {
     "lib": "lib"
   },
   "bin": {
-    "bv-git": "bin/bv-git",
-    "bv-git-init": "bin/bv-git-init",
-    "bv-git-clone": "bin/bv-git-clone"
+    "bve-git": "bin/bve-git",
+    "bve-git-init": "bin/bve-git-init",
+    "bve-git-clone": "bin/bve-git-clone"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-git-cli"
+    "url": "https://github.com/bvejs/bve/tree/master/packages/bve-git-cli"
   },
-  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-git-cli#readme",
+  "homepage": "https://github.com/bvejs/bve/tree/master/packages/bve-git-cli#readme",
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "dependencies": {

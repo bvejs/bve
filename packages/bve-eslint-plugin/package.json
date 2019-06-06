@@ -1,5 +1,5 @@
 {
-  "name": "@bvjs/eslint-plugin",
+  "name": "@bve/eslint-plugin",
   "version": "0.0.1",
   "description": "test ?.",
   "main": "index.js",
@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-eslint-plugin"
+    "url": "https://github.com/bvejs/bve/tree/master/packages/bve-eslint-plugin"
   },
-  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-eslint-plugin#readme",
+  "homepage": "https://github.com/bvejs/bve/tree/master/packages/bve-eslint-plugin#readme",
   "author": "雨后黄昏 <shihuajunze@163.com>",
   "license": "ISC",
   "dependencies": {

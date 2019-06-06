@@ -9,7 +9,7 @@ const format = require('util').format
  * 前缀
  */
 
-const prefix = '[bv-git-cli]'
+const prefix = '[bve-cdn]'
 // 分号固定灰色
 const sep = chalk.gray(':')
 

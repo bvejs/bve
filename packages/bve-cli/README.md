@@ -5,21 +5,21 @@
 #### 安装
 
 ```
-npm install -g bv-cli
+npm install -g @bve/cli
 ```
 
 #### 生成项目
 
 生成一个项目
 ```
-bv init [project-name]
+bve init [project-name]
 ```
 在当前目录下生成项目
 ```
-bv init
+bve init
 ```
 
 #### 查看可用配置
 ```
-bv list
+bve list
 ```
