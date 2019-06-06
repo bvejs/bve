@@ -5,7 +5,7 @@
 #### 安装
 
 ```
-npm install -g bve-cdn-cli
+npm install -g @bve/cdn-cli
 ```
 
 #### 初始化
