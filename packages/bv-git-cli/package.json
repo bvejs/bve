@@ -1,0 +1,39 @@
+{
+  "name": "@bvjs/git-cli",
+  "version": "0.0.8",
+  "description": "git dowload",
+  "main": "index.js",
+  "keywords": [
+    "@bvjs/bv-git-cli",
+    "nodegit",
+    "@bvjs/bv-cil"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "bv-git": "bin/bv-git",
+    "bv-git-init": "bin/bv-git-init",
+    "bv-git-clone": "bin/bv-git-clone"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bvjs/bvjs/tree/master/packages/bv-git-cli"
+  },
+  "homepage": "https://github.com/bvjs/bvjs/tree/master/packages/bv-git-cli#readme",
+  "author": "雨后黄昏 <shihuajunze@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "fs": "^0.0.1-security",
+    "nodegit": "^0.24.3",
+    "ora": "^3.4.0",
+    "path": "^0.12.7",
+    "rimraf": "^2.6.3",
+    "util": "^0.12.0"
+  }
+}

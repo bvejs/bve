@@ -1,0 +1,19 @@
+{
+  "name": "bve",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvjs/bvjs.git"
+  },
+  "author": "雨后黄昏 <shihuajunze@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvjs/bvjs/issues"
+  },
+  "homepage": "https://github.com/bvjs/bvjs#readme"
+}
