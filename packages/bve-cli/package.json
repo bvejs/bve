@@ -1,9 +1,10 @@
 {
   "name": "@bve/cli",
-  "version": "1.0.4",
-  "description": "模板生成器",
+  "version": "1.0.7",
+  "description": "generate a new project from a template",
   "main": "index.js",
   "keywords": [
+    "@bve",
     "@bve/cli",
     "react"
   ],

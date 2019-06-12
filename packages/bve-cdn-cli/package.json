@@ -1,11 +1,12 @@
 {
   "name": "@bve/cdn-cli",
-  "version": "0.0.4",
-  "description": "",
+  "version": "0.0.6",
+  "description": "upload project to CDN",
   "main": "index.js",
   "keywords": [
-    "@bve/cdn-cli",
-    "@bve/cil"
+    "@bve",
+    "@bve/cil",
+    "@bve/cdn-cli"
   ],
   "directories": {
     "lib": "lib"
@@ -28,6 +29,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
+    "cos-nodejs-sdk-v5": "^2.5.9",
     "fs": "^0.0.1-security",
     "glob": "^7.1.4",
     "inquirer": "^6.3.1",

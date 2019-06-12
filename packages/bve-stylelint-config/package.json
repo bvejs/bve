@@ -4,11 +4,12 @@
   "description": "styleLint config",
   "main": "index.js",
   "keywords": [
-    "stylelint",
-    "stylelint-config",
+    "@bve",
     "@bve/cil",
     "@bve/eslint-config",
-    "@bve/stylelint-config"
+    "@bve/stylelint-config",
+    "stylelint",
+    "stylelint-config"
   ],
   "scripts": {
     "lint": "stylelint --fix \"./test/**/*.scss\" --config \"./index.js\""

@@ -12,7 +12,7 @@ module.exports = done => {
   }
 
   request({
-    url: 'https://registry.npmjs.org/bv-cli',
+    url: 'https://registry.npmjs.org/bve-cli',
     timeout: 1000
   }, (err, res, body) => {
     if (!err && res.statusCode === 200) {

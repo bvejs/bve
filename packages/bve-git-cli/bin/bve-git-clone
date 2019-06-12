@@ -18,7 +18,7 @@ program.parse(process.argv)
 const configPath = path.resolve(program.args[0] || configName)
 
 if (!fs.existsSync(configPath)) {
-  logger.error(`Not found ${configPath}, #run $ bv-git init`)
+  logger.error(`Not found ${configPath}, #run $ bve-git init`)
 }
 
 const { repos, output, info = false, clean = false } = require(configPath)

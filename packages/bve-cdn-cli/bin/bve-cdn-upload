@@ -14,7 +14,7 @@ program.parse(process.argv)
 const configPath = path.resolve(program.args[0] || configName)
 // 配置文件不存在
 if (!fs.existsSync(configPath)) {
-  logger.error(`Not found ${configPath}, #run $ bv-cdn init`)
+  logger.error(`Not found ${configPath}, #run $ bve-cdn init`)
 }
 
 const config = require(configPath)
@@ -31,9 +31,7 @@ if (!pattern) {
 }
 
 // 不同cdn的上传api
-const upload = {
-  qiniu: require('../lib/qiniu')
-}[cdn]
+const upload = require(`../lib/${cdn}`)
 
 // 如果api不存在
 if (!upload) {

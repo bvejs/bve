@@ -1,9 +1,10 @@
 {
   "name": "@bve/git-cli",
-  "version": "0.0.8",
-  "description": "git dowload",
+  "version": "0.0.10",
+  "description": "dowload project from git",
   "main": "index.js",
   "keywords": [
+    "@bve",
     "@bve/git-cli",
     "nodegit",
     "@bve/cil"

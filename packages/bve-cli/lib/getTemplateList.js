@@ -12,9 +12,9 @@ module.exports = () => {
     const spinner = ora('find templates...')
     spinner.start()
     request({
-      url: 'https://api.github.com/users/bv-templates/repos',
+      url: 'https://api.github.com/users/bve-templates/repos',
       headers: {
-        'User-Agent': 'bv-cli'
+        'User-Agent': 'bve-cli'
       },
     }, (err, res, body) => {
       spinner.stop()

@@ -4,6 +4,7 @@
   "description": "test ?.",
   "main": "index.js",
   "keywords": [
+    "@bve",
     "eslint",
     "eslintplugin",
     "eslint-plugin"
