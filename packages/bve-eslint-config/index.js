@@ -1,3 +1,1 @@
-const requireIndex = require("requireindex");
-
-module.exports = requireIndex(__dirname + "/src")
+module.exports = require("./simple");

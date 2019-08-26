@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+
+const chalk = require('chalk')
+const fs = require('fs')
+const rimraf = require('rimraf')
+const program = require('commander')
+const path = require('path')
+const logger = require('../lib/logger')
+const configName = require('../lib/config').configName
+
+program.parse(process.argv)
+
+const args = program.args
+let dirName = ''
+let dir = ''
+let ignore = []
+if (args.length === 0 || args.length === 1) {
+  const configPath = path.resolve(args[0] || configName)
+  if (!fs.existsSync(configPath)) {
+    logger.error(`Not found ${configPath}, #run $ bve-git init`)
+  }
+  // 加载配置文件
+  const cfg = require(configPath)
+  dirName = cfg.dirName
+  dir = cfg.dir
+  ignore = cfg.ignore
+} else if (args.length === 2 || args.length === 3) {
+  dirName = args[0]
+  dir = args[1]
+  ignore = args[2] || []
+}
+
+if (dir && dirName) {
+  deleteTargetFolder(dir, dirName)
+}
+
+function deleteTargetFolder(dir, dirName) {
+  if (fs.existsSync(dir)) {
+    fs.readdir(dir, (err, files) => {
+      if (err) {
+        return logger.error(err)
+      }
+      files.forEach(file => {
+        const curPath = path.resolve(dir, file)
+        if (fs.lstatSync(curPath).isDirectory()) {
+          if (file === dirName) {
+            if (ignore.length && ignore.find(f => curPath.includes(f))) {
+              return
+            }
+            logger.log(`${chalk.gray('deleting')} ${curPath}`)
+            rimraf(curPath, {}, err => {
+              if (err) {
+                logger.error(`${curPath} ${chalk.red('failed')} ${err}`)
+              } else {
+                logger.success(`${curPath} ${chalk.green('success')}`)
+              }
+            })
+          } else {
+            deleteTargetFolder(curPath, dirName)
+          }
+        }
+      })
+    })
+  }
+}

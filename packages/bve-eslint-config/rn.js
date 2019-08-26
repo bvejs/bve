@@ -4,30 +4,37 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
+    },
   },
   env: {
-    browser: true,
+    browser: false,
     node: true,
     es6: true,
   },
-  extends: 'eslint:recommended',
+  extends: ['eslint:recommended', "plugin:react-native/all"],
   // required to lint *.html files
-  plugins: ['html', 'react', 'babel'],
+  plugins: ['react', 'react-native', 'babel'],
   // add your custom rules here
   rules: {
     'babel/new-cap': 1,
     'babel/camelcase': 1,
     'babel/no-invalid-this': 1,
-    'babel/object-curly-spacing': 1,
-    'babel/quotes': 1,
+    // 'babel/object-curly-spacing': 1,
+    // 'babel/quotes': 1,
     // 'babel/semi': 1,
     'babel/no-unused-expressions': 1,
     'babel/valid-typeof': 1,
     // 防止jsx组件变未定义
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "react-native/no-raw-text": 2,
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     /*
      * Possible Errors
      */
