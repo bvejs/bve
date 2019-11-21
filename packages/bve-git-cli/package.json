@@ -1,6 +1,6 @@
 {
   "name": "@bve/git-cli",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "dowload project from git",
   "main": "index.js",
   "keywords": [
