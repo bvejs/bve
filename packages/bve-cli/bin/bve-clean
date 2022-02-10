@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+const rimraf = require("rimraf");
+const ora = require("ora");
+const config = require("../lib/config");
+
+const spinner = ora("clean templates...").start();
+
+rimraf(config.templateLocalPath, function (err) {
+  spinner.stop();
+  if (err) {
+    console.log(err);
+  }
+  /**
+   * 为了美观留白
+   */
+  // 开始一个空行
+  // 当进程要结束时在打印一个空行
+  process.on("exit", () => {
+    console.log();
+  });
+});

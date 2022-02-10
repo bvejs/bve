@@ -1,6 +1,6 @@
 {
   "name": "@bve/cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "generate a new project from a template",
   "main": "index.js",
   "keywords": [
@@ -14,7 +14,8 @@
   "bin": {
     "bve": "bin/bve",
     "bve-init": "bin/bve-init",
-    "bve-list": "bin/bve-list"
+    "bve-list": "bin/bve-list",
+    "bve-clean": "bin/bve-clean"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "path": "^0.12.7",
     "read-metadata": "^1.0.0",
     "request": "^2.88.0",
+    "rimraf": "^3.0.2",
     "user-home": "^2.0.0",
     "util": "^0.11.1",
     "validate-npm-package-name": "^3.0.0"
