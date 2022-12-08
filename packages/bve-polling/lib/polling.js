@@ -1,5 +1,5 @@
 /**
- * Polling v1.0.0
+ * Polling v1.0.1
  * https://github.com/bvejs/bve/tree/master/packages/bve-polling#readme
  *
  * @license

@@ -17,7 +17,7 @@ npm install @bve/polling
   import Polling from '@bve/polling';
 
   // 默认 1000 毫秒
-  const eventBus = new EventBus(2000);
+  const polling = new Polling(2000);
 ```
 
 
